@@ -32,7 +32,27 @@
                             {{ message.content.caption }}
                             <img :src="message.content.url" alt="" class="w-1/6" />
                         </span>
-
+                        <span v-if="message.type == 'sticker'">
+                            <img :src="message.content.url" alt="" class="w-1/6" />
+                        </span>
+                        <span v-if="message.type == 'video'">
+                            {{ message.content.caption }}
+                            <video :src="message.content.url" alt="" class="w-2/6" controls />
+                        </span>
+                        <span v-if="message.type == 'audio'">
+                            <audio :src="message.content.url" alt="" controls />
+                        </span>
+                        <span v-if="message.type == 'document'">
+                            <button class="btn btn-primary"> <a :href="message.content.url" download> Descargar Archivo </a> </button>
+                        </span>
+                        <span v-if="message.type == 'contacts'">
+                            <ul v-for="contact in message.content">
+                                <li>Nombre: {{ contact.name.first_name }}</li>
+                                <li>Telefonos:
+                                        <span v-for="phone in contact.phones">{{ phone.phone }}</span>
+                                </li>
+                            </ul>
+                        </span>
                     </div>
                 </div>
             </div>
