@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/messenger', fn() => view('messenger'));
+Route::get('/templates', fn() => view('template'));
