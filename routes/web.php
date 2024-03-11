@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/messenger', fn() => view('messenger'));
-Route::get('/templates', fn() => view('template'));
+Route::ResourceView('template');
