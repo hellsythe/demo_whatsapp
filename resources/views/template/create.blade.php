@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel Messenger Templates</title>
+        <title>Laravel Messenger Templates Crear</title>
 
         <title> @yield('title', config('app.name'))</title>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -12,7 +12,7 @@
     <body data-theme="emerald" >
         @yield('content')
         <div id="messenger">
-            <template-component></template-component>
+            <template-create></template-create>
         </div>
     </body>
 </html>
