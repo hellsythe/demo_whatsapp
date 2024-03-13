@@ -3389,12 +3389,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sdkconsultoria/whatsapp-cloud-api.git",
-                "reference": "d14d41498cf8146306a9dd02acb33c13f7b3d3f9"
+                "reference": "78503e9fb261f53a5231ccdb28b6ea946a9ea868"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sdkconsultoria/whatsapp-cloud-api/zipball/d14d41498cf8146306a9dd02acb33c13f7b3d3f9",
-                "reference": "d14d41498cf8146306a9dd02acb33c13f7b3d3f9",
+                "url": "https://api.github.com/repos/sdkconsultoria/whatsapp-cloud-api/zipball/78503e9fb261f53a5231ccdb28b6ea946a9ea868",
+                "reference": "78503e9fb261f53a5231ccdb28b6ea946a9ea868",
                 "shasum": ""
             },
             "require": {
@@ -3451,7 +3451,7 @@
                 "issues": "https://github.com/sdkconsultoria/whatsapp-cloud-api/issues",
                 "source": "https://github.com/sdkconsultoria/whatsapp-cloud-api/tree/develop"
             },
-            "time": "2024-03-12T00:17:54+00:00"
+            "time": "2024-03-13T23:16:25+00:00"
         },
         {
             "name": "symfony/console",
@@ -6207,16 +6207,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.28.2",
+            "version": "v1.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "057777403b8ab79222dcc04983beaab10b6de6a0"
+                "reference": "e40cc7ffb5186c45698dbd47e9477e0e429396d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/057777403b8ab79222dcc04983beaab10b6de6a0",
-                "reference": "057777403b8ab79222dcc04983beaab10b6de6a0",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/e40cc7ffb5186c45698dbd47e9477e0e429396d0",
+                "reference": "e40cc7ffb5186c45698dbd47e9477e0e429396d0",
                 "shasum": ""
             },
             "require": {
@@ -6265,7 +6265,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2024-03-04T14:58:29+00:00"
+            "time": "2024-03-08T16:32:33+00:00"
         },
         {
             "name": "mockery/mockery",
