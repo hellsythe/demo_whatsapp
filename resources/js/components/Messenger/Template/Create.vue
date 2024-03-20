@@ -44,23 +44,6 @@ async function submit() {
 function convertJsonToFormData(json) {
     const formData = new FormData();
     appendObjectToFormData(formData, json);
-    // appendObjectToFormData(formData, {
-    //     name: 'Plantilla de prueba',
-    //     category: "marketing",
-    //     language: "es",
-    //     components: {
-    //         header: {
-    //             type: 'TEXT',
-    //             text: 'Hola header',
-    //         },
-    //         body: {
-    //             text: 'Hola body'
-    //         },
-    //         footer: {
-    //             text: 'Hola footer'
-    //         },
-    //     }
-    // });
     return formData;
 }
 
